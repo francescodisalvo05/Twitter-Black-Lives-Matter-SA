@@ -55,8 +55,12 @@ The reference metric was the accuracy and the best configuration for the `Logist
 ## Discussion
 The Natural Language Processing is a wide and interesting field, with several application on our lives, in fact we will make some others analysis in order to learn new things and to discover new interesting insights. Anyway, the current approach obtained an overall satisfactory result, and it probably also depends on the goodness of the provided dataset. Possible improvement could regard the preprocessing phase, by considering some other raffinate techniques. Then it should be useful to focus on new models and their response to the different "combinations" of preprocessing. 
 
-[1] Wikipedia 'Black Lives Matter' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-[2] Tweet Object Documentation : https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet
+<br /><br />
 
-* [Code](https://github.com/francescodisalvo05/Twitter-Black-Lives-Matter-SA/blob/main/twitter-black-lives-matter.ipynb)
-* [IEEE Standard Report](https://github.com/francescodisalvo05/Twitter-Black-Lives-Matter-SA/blob/main/BlackLivesMatter_SA.pdf)
+[1] Wikipedia 'Black Lives Matter' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955. <br />
+[2] Tweet Object Documentation : https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-model/tweet <br />
+
+<br />
+
+`Code` : https://github.com/francescodisalvo05/Twitter-Black-Lives-Matter-SA/blob/main/twitter-black-lives-matter.ipynb <br />
+`IEEE Standard Report` : https://github.com/francescodisalvo05/Twitter-Black-Lives-Matter-SA/blob/main/BlackLivesMatter_SA.pdf
