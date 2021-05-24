@@ -1,2 +1,2 @@
 *.jsonl
-*.svg
+.ipynb_checkpoints/
