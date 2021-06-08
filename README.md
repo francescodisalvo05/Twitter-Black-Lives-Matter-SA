@@ -21,11 +21,11 @@ Figure 1 - Positive WordCloud           |  Figure 2 - Negative WordCloud
 ## Proposed Approach
 
 ### Data Preprocessing
-Natural Language Processing tasks have a canonical preprocessing structure, in fact in order to analyze a collection of document we should consider several consecutive steps. In particular when we deal with huge documents, we can actually \textit{split} them in shorter pieces in order to better analyze their content. Since this is not the case, we skipped to the second step, that is the \textit{tokenization}: here we split each content into tokens (a.k.a words). These tokens will represent the "core" of our analysis, because some of these tokens will be strictly related to our class. 
+Natural Language Processing tasks have a canonical preprocessing structure, in fact in order to analyze a collection of document we should consider several consecutive steps. In particular when we deal with huge documents, we can actually split them in shorter pieces in order to better analyze their content. Since this is not the case, we skipped to the second step, that is the tokenization: here we split each content into tokens (a.k.a words). These tokens will represent the "core" of our analysis, because some of these tokens will be strictly related to our class. 
 
-In particular we used the \textit{Natural Language Tool Kit tokenizer}, that allows to easily convert a sentence like "we are equal" into the following array of features ["we","are","equal"]. 
+In particular we used the `Natural Language Tool Kit` tokenizer, that allows to easily convert a sentence like "we are equal" into the following array of features ["we","are","equal"]. 
 
-The aim of any sentiment analysis is to extract the most relevant "tokens" for each class. In this case, the most relevant tokens are the ones that are very frequent in a class and not frequent in the second one. In order to count the relative frequency of each token, we used the fairly well known \textit{TfIdfVectorizer} defined in scikit-learn. TF states for term frequencies and IDF states for inverse document frequency. In short, it penalize the tokens that are frequent in all the documents (our tweets), and it is defined as :
+The aim of any sentiment analysis is to extract the most relevant "tokens" for each class. In this case, the most relevant tokens are the ones that are very frequent in a class and not frequent in the second one. In order to count the relative frequency of each token, we used the fairly well known `TfIdfVectorizer` defined in scikit-learn. TF states for term frequencies and IDF states for inverse document frequency. In short, it penalize the tokens that are frequent in all the documents (our tweets), and it is defined as :
   
 <p align="center">
   <img src="https://bit.ly/3yBFtas" align="center" border="0" alt="TF-IDF(t) = freq(t,d) \times \log{\frac{m}{freq(t,D)}}" width="326" height="43" />
